@@ -30,7 +30,6 @@ int main(int argc, char *argv[])
 {
     fstream input("input.txt");
     string temp_str;
-    string element{""};
     vector<string> commands;
     while (getline(input, temp_str))
     {
