@@ -233,8 +233,8 @@ bool operator>=(const Quaternion &a, const Quaternion &b) { return !(a < b); }
 Quaternion operator+(const Quaternion &a, const Quaternion &b) { return Quaternion(a.x + b.x, a.y + b.y, a.z + b.z, a.w + b.w); }
 Quaternion operator-(const Quaternion &a, const Quaternion &b) { return Quaternion(a.x - b.x, a.y - b.y, a.z - b.z, a.w - b.w); }
 
-int part1_solution_;
-int part2_solution_;
+long long part1_solution_;
+long long part2_solution_;
 
 void printSolutionPart1()
 {
